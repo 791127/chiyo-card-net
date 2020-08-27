@@ -1,0 +1,13 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/chiyo-paper.myshopify.com/products/configure/202418/edit
+{% endcomment %}
+{% if product.metafields.custom_fields["seal_sale"] != blank %}
+  <div class="custom-field custom-field__seal-sale custom-field__type--text">
+    <h3 class="custom-field--title">seal_sale</h3>
+    <div class="custom-field--value">
+      {{ product.metafields.custom_fields["seal_sale"] }}
+    </div>
+  </div>
+{% endif %}
